@@ -3,7 +3,7 @@ package cen4802;
 public class Main {
     public static void main(String[] args) {
         int n = 5;
-        int answer = 0;
+        int answer;
         for (int i = n; i <= 40; i+=5) {
             answer = fibonacci(i);
             System.out.println("The "+ i +"th term of the Fibonacci sequence is " + answer);
